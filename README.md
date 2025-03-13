@@ -21,12 +21,40 @@
 - Calculate BMI and have classification + weight goal
 - Daily menu recipes
 
-## Getting started
-
-```shell
-git clone  
-```
-
 ## Wireframe
 
 ![MyNutri Wireframe](mynutri-wireframe.png)
+
+## Getting started
+
+To get a local copy up and running follow these steps:
+
+1. Clone the repo
+
+    ```sh
+    git clone git@github.com:marcellaziroldo/mynutri.git
+    ```
+
+1. Change directory
+
+    ```sh
+    cd mynutri
+    ```
+
+1. Change branch
+
+    ```sh
+    git checkout develop
+    ```
+
+1. NPM Install
+
+    ```sh
+    npm install
+    ```
+
+1. Run local server
+
+    ```sh
+    npm run dev
+    ```
