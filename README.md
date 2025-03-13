@@ -1,18 +1,32 @@
+
 # MyNutri
 
-MyNutri is a website to help people improve their eating habits towards nutrition information.
+> MyNutri is a website to help people improve their eating habits towards nutrition information.
 
->General Nutrition Information
->
-- What are macronutrients and their functions in the boy
+## Table of Contents
+
+- [General Info](#general-information)
+- [Documentation](#documentation)
+- [Wireframe](#wireframe)
+
+## General Information
+
+> The main goal of "MyNutri" is to provide reliable nutrition guidance for individuals with chronic conditions such as obesity, high blood pressure, and diabetes. It aims to support those who lack access to a dietitian or nutritionist but need to improve their health and manage their conditions effectively.
+
+### Preview of content
+
+- What are macronutrients and their functions in the body
 - How to build a healthy plate
->
-> Starting point: Classification + basic information
-
 - Calculate water intake
-
 - Calculate BMI and have classification + weight goal
->
->Menu recipes
+- Daily menu recipes
 
-- Breakfest, Lunch, Dinner, Snacks
+## Getting started
+
+```shell
+git clone  
+```
+
+## Wireframe
+
+![MyNutri Wireframe](mynutri-wireframe.png)

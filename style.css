@@ -1,0 +1,42 @@
+
+.body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.hero-layout {
+   
+    background-image: url("../../images/hero-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 53.9375rem;
+    margin-inline: auto;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+.introduction {
+  
+    text-align: center;
+    margin: auto;
+    font-size: 2.0rem;
+    justify-content: center;
+    width: 800px;
+    padding: 50px;
+    border-radius: 15px;
+}
+.card {
+    background-color:lemonchiffon;
+    text-align: center;
+    margin: auto;
+    font-size: 2.0rem;
+    justify-content: center;
+    width: 800px;
+    padding: 50px;
+    border-radius: 15px;
+}
+.btn-primary{
+    background-color:chocolate;
+    border-color:chocolate ;
+}
