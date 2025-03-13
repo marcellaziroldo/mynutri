@@ -6,8 +6,8 @@
 ## Table of Contents
 
 - [General Info](#general-information)
-- [Documentation](#documentation)
 - [Wireframe](#wireframe)
+- [Getting started](#getting-started)
 
 ## General Information
 
