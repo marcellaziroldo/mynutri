@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.macro {
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.macro h2 {
+    color: chocolate;
+    border-bottom: 2px solid chocolate;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.macro h3 {
+    color: peru;
+    margin-top: 20px;
+}
+
+.macro p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Image Styling */
+.macro-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
