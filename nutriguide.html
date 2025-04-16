@@ -55,7 +55,9 @@
           </nav>    
     </header>
 
-    <div class="macro position-absolute top-50 start-50 translate-middle">
+    <main class="container">
+
+      <div class="macro">
         <h2> <b></b> Macronutrients</b></h2>
         <p>Macronutrients are the essential nutrients your body needs in large amounts to function properly, providing energy and supporting bodily functions, and they include carbohydrates, proteins, and fats. </p>
         <h3> Carbohydrates</h3>
@@ -78,9 +80,88 @@
     
 
     </div>
+    
+      <div class="plate">
+        <h2> <b></b> How to build your plate?</b></h2>
+        <p>When portioning your meals, focus on balancing the nutrients your body needs. An easy way to do this is by using a visual method and following these guidelines:
+  
+         <p> - Fill half of your plate with vegetables.</p>
+          
+         </p> - Allocate one-quarter of your plate to carbohydrates.</p>
+          
+         <p>- Use the remaining quarter for protein-rich foods.</p>
+          
+         <p>This approach ensures a well-balanced meal while keeping nutrition in check. </p></p>
+        
+  
+  
+            <img src="images/healthy-plate-diagram-4-lg.webp" class="plate-img" alt="How to build your plate diagram">
+  
+    </div>
+  
+    
+      <div class="water">
+        <h2>Water Intake Calculator</h2>
+
+        <p> With this tool you can calculate how much water you should drink in a day.</p>
+          <p> Staying hydrated is essential for many bodily functions and can even boost your metabolism.</p>
+           <p> <label for="water-weight">Weight (kg):</label>
+            <label for="water-weight">Weight (kg):</label>
+            <input type="number" id="water-weight" placeholder="Enter your weight in Kilos">
+              <button class="calculate" onclick="calculateWaterIntake()">Calculate</button>
+              <div id="result"></div>
+    
+    </div>
+    
+<div class="bmi">
+  <h2> Body Mass Index(BMI) Calculator </h2>
+  <p> Here, you can check your body composition. This formula calculates how your weight is distributed based on your height and determines whether it falls within a healthy range.</p>
+<p> You can use the result as a reference to understand how much you may need to adjust your eating and exercise habits. Refer to the information above to help guide your decisions!</p>
+    <label for="bmi-weight">Weight (kg):</label>
+    <input type="number" id="bmi-weight" placeholder="Enter your weight">
+    <input type="number" step="0.01" id="height" placeholder="Enter your height in meters">
+    <button class="calculate" onclick="calculateBMI()">Calculate BMI</button>
+    <div id="result-bmi"></div>
+</div>
+</div>
+    </main>
+
+<footer class="bg-light text-center text-lg-start mt-5 border-top">
+  <div class="container p-4">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5>About MyNutri</h5>
+        <p>
+          Your go-to resource for reliable nutrition guidance, especially for those managing chronic conditions. Empowering healthy living, one plate at a time.
+        </p>
+      </div>
+
+  
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled mb-0">
+          <li><a href="nutriguide.html" class="text-dark">Nutrition Guide</a></li>
+          <li><a href="recipes.html" class="text-dark">Recipes</a></li>
+          <li><a href="#" class="text-dark">Subscribe</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <h5>Follow Us</h5>
+        <a href="#" class="text-dark me-3"><i class="bi bi-facebook"></i> Facebook</a><br>
+        <a href="#" class="text-dark me-3"><i class="bi bi-instagram"></i> Instagram</a><br>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center p-3 bg-body-tertiary" style="background-color: #f1f1f1;">
+    © 2025 MyNutri | All rights reserved
+  </div>
+</footer>
+
+    <script src="index.js" type="module"></script>
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
