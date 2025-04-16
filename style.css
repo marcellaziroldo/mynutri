@@ -34,6 +34,7 @@
 .card {
     text-align: center;
     margin: auto;
+    margin-top: 50px;
     font-size: 2.0rem;
     justify-content: center;
     width: 800px;
@@ -51,3 +52,38 @@
     border-color:chocolate ;
 }
 
+
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  footer h5 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: chocolate;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color:chocolate;
+    text-decoration: underline;
+  }
+  
+  footer .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  footer .text-center.bg-body-tertiary {
+    background-color:gainsboro!important;
+    color: #555;
+    font-size: 0.9rem;
+    border-top: 1px solid gainsboro ;
+  }
+  
