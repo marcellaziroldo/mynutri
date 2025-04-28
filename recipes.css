@@ -1,0 +1,16 @@
+.recipesCard {
+    background: #fff;
+    padding: 10px 20px; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    max-width: 60rem;
+  
+}
+.recipesCard h2 {
+    color: chocolate;
+}
+
+.recipesCard h4 {
+    color: chocolate;
+}
