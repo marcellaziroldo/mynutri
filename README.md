@@ -64,7 +64,7 @@ To get a local copy up and running follow these steps:
 ### Planned roadmap:
 
 - Create basic Homepage Layout - DONE
-- Create Nutrition Guide and Tools Page. In this page the user will have some interactivity such as calculate water intake - IN PROGRESS
-- Create a recipes pages using API. - IN PROGRESS
+- Create Nutrition Guide and Tools Page. In this page the user will have some interactivity such as calculate water intake -DONE
+- Create a recipes pages using API. - DONE
 - Create a subscription page. - IN PROGRESS
 - Merge content to REACT - IN PROGRESS
